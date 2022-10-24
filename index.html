@@ -52,13 +52,40 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        
+
         <button data-modal-open class="button" type="button">Замовити послугу</button>
         <div class="backdrop is-hidden" data-modal>
-          <div class="modal"  > <button type="button" class="modal-button" data-modal-close><svg class="vector-close" width="18px" height="18px">
-            <use class="close-item" href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
-          </svg></button></div>
-          
+          <div class="modal">
+            <button type="button" class="modal-button" data-modal-close>
+              <svg class="vector-close" width="18px" height="18px">
+                <use class="close-item" href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
+              </svg>
+            </button>
+
+            <form action="">
+              <p></p>
+
+              <div class="form-field">
+                <label for="name">Ім'я</label>
+                <input type="text" name="user name" id="name" />
+              </div>
+
+              <label for="tel">Телефон</label>
+              <input type="tel" name="phone_number" id="tel" />
+
+              <label for="email">Пошта</label>
+              <input type="email" name="email" id="email" />
+
+              <label for="comment"></label>
+              <textarea
+                name="comment"
+                id="comment"
+                rows="10"
+                id="comment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </form>
+          </div>
         </div>
       </section>
 
@@ -124,7 +151,8 @@
           <h2 class="title">Чим ми займаємося</h2>
           <ul class="list">
             <li class="item">
-              <img class="doing-photo"
+              <img
+                class="doing-photo"
                 src="./images/box1.jpg"
                 alt="Чоловік як друкує текст на комп'ютері"
                 width="370"
@@ -136,13 +164,13 @@
             </li>
             <li class="item">
               <img src="./images/box2.jpg" alt="Телефон в руці" width="370" height="294" />
-            <div class="photo-title">
+              <div class="photo-title">
                 <p class="photo-caption">Мобільні додатки</p>
               </div>
             </li>
             <li class="item">
               <img src="./images/box3.jpg" alt="Планшет" width="370" height="294" />
-            <div class="photo-title">
+              <div class="photo-title">
                 <p class="photo-caption">Дизайнерські рішення</p>
               </div>
             </li>
@@ -422,6 +450,15 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="footer-three-box">
+            <form>
+              <div class="form-field">
+                <label for="email">Підпишіться на розсилку</label>
+                <input type="text" name="email" id="email" placeholder="E-mail" />
+              </div>
+              <button type="submit">Підписатися</button>
+            </form>
           </div>
         </div>
       </div>
