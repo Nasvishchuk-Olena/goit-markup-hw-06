@@ -62,28 +62,41 @@
               </svg>
             </button>
 
-            <form action="">
-              <p></p>
+            <form class="form js-speaker-form" autocomplete="on">
+              <p>Залиште свої дані, ми вам передзвонимо</p>
 
               <div class="form-field">
                 <label for="name">Ім'я</label>
                 <input type="text" name="user name" id="name" />
               </div>
 
-              <label for="tel">Телефон</label>
+              <div class="form-field">
+                <label for="tel">Телефон</label>
               <input type="tel" name="phone_number" id="tel" />
+              </div>
 
-              <label for="email">Пошта</label>
+              <div class="form-field">
+                <label for="email">Пошта</label>
               <input type="email" name="email" id="email" />
+              </div>
 
-              <label for="comment"></label>
-              <textarea
+              <div class="form-field">
+                <label for="comment">Коментар</label>
+              <textarea class="comment-textarea"
                 name="comment"
                 id="comment"
                 rows="10"
                 id="comment"
                 placeholder="Введіть текст"
               ></textarea>
+              </div>
+
+              <div class="form-field">
+                <input type="checkbox" name="policy" id="policy" checked>
+                <label for="policy">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a> </label>
+                
+              </div>
+              <button type="submit">Відправити</button>
             </form>
           </div>
         </div>
@@ -452,12 +465,19 @@
             </ul>
           </div>
           <div class="footer-three-box">
-            <form>
-              <div class="form-field">
-                <label for="email">Підпишіться на розсилку</label>
-                <input type="text" name="email" id="email" placeholder="E-mail" />
+            <form class="footer-form-points">
+              <div class=" footer-form-field">
+                <label  class="footer-field-label" for="email">Підпишіться на розсилку</label>
+                <input class="footer-field-input" type="text" name="email" id="email" placeholder="E-mail" />
+              
               </div>
-              <button type="submit">Підписатися</button>
+             
+              <button type="submit" class="footer-form-button">Підписатися
+                <svg class="footer-field-icon" width="20px" height="20px" >
+                  <use href="./images/symbol-defs.svg#icon-icon-send" ></use>
+                </svg>
+              </button>
+              
             </form>
           </div>
         </div>
