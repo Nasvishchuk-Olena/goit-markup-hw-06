@@ -387,7 +387,7 @@ letter-spacing: 0.01em;
 font-family: inherit;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 letter-spacing: 0.06em;
 border: none;
 width: 200px;
@@ -402,10 +402,14 @@ border-color: var(--accent-color);}
 .form-submit-button:hover {background-color:var(--modal-button);}
 .form-field.chekbox{height: 24px;}
 
+
 .checkbox-link{color: var(--button-hero-colour);
 text-decoration:underline;}
 
-
+.input-checkbox {visibility: hidden;}
+.checkbox-label::before {
+  width: ;
+}
 
 /* section2 */
 
@@ -751,6 +755,9 @@ text-decoration:underline;}
 
 .footer-form-button {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   right: -212px;
   bottom: 0px;
   display: block;
@@ -765,9 +772,9 @@ text-decoration:underline;}
   font-size: 16px;
   line-height: 1.9;
   color: #ffffff;
+  
 }
-.footer-form-button::after {
-}
+
 
 .footer-field-label {
   font-weight: 700;
@@ -793,8 +800,6 @@ text-decoration:underline;}
   border-color: #2196f3;
   fill: var(--accent-color);
 }
-.footer-field-icon{margin-left: 10px;
-justify-content: center;}
 
 /* STYLES FOR PORTFOLIO */
 
