@@ -414,14 +414,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--button-hero-colour);
   text-decoration: underline;
 }
-
-.input-checkbox {
+/* .input-checkbox {
 appearance: none;
-}
+} */
+.checkbox:checked + .form-icon{background-image:url(../images/symbol-defs.svg#icon-icon-send)}
+.form-icon {
+  width: 20px;
+height: 20px;
+color: aquamarine;}
 
 
-
-/* section2 */
+section2
 
 .section {
   padding-top: 94px;
