@@ -698,7 +698,6 @@ a {
 
 .form {
   width: 528px;
-  height: auto;
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
@@ -734,7 +733,7 @@ a {
 
 .form-input:hover,
 .comment-textarea:hover {
-border-color: var(--button-hero-colour);
+  border-color: var(--button-hero-colour);
 }
 
 .form-label {
@@ -749,12 +748,13 @@ border-color: var(--button-hero-colour);
   top: 50%;
   transform: translateY(-50%);
   left: 14px;
-} 
+}
 
 .form-input:hover,
 .form-input:focus .input-icon {
   fill: var(--button-hero-colour);
 }
+.relative-for-svg{position: relative;}
 
 .form-submit-button {
   display: block;
@@ -815,10 +815,6 @@ border-color: var(--button-hero-colour);
   align-items: center;
   justify-content: center;
 }
-
-
-
-
 
 /* STYLES FOR PORTFOLIO */
 

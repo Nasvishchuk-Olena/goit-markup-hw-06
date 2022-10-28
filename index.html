@@ -421,7 +421,8 @@
           <div class="footer-three-box">
             <p class="footer-field-label">Підпишіться на розсилку</p>
             <form class="footer-form-points">
-              <label class="footer-form-field"> <span class="visually-hidden">Email</span>
+              <label class="footer-form-field">
+                <span class="visually-hidden">Email</span>
                 <input
                   class="footer-field-input"
                   type="text"
@@ -443,7 +444,7 @@
       </div>
     </footer>
 
-          <!-- Modal Window -->
+    <!-- Modal Window -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -458,26 +459,32 @@
 
           <div class="form-field">
             <label class="form-label" for="name">Ім'я</label>
-            <input  class="form-input" type="text" name="user name" id="name" />
-            <svg class="input-icon" width="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-person-black"></use>
-            </svg>
+            <div class="relative-for-svg">
+              <input class="form-input" type="text" name="user name" id="name" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-person-black"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="form-field">
             <label class="form-label" for="tel">Телефон</label>
-            <input class="form-input" type="tel" name="phone_number" id="tel" />
-            <svg class="input-icon" width="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-phone-black"></use>
-            </svg>
+            <div class="relative-for-svg">
+              <input class="form-input" type="tel" name="phone_number" id="tel" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="form-field">
-            <label class="form-label" for="email">Пошта</label>
-            <input class="form-input" type="email" name="email" id="email" />
-            <svg class="input-icon" width="18px" height="18px">
-              <use href="./images/symbol-defs.svg#icon-email-black"></use>
-            </svg>
+            <label class="form-label" for="mail">Пошта</label>
+            <div class="relative-for-svg">
+              <input class="form-input" type="email" name="email" id="mail" />
+              <svg class="input-icon" width="18px" height="18px">
+                <use href="./images/symbol-defs.svg#icon-email-black"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="form-field textarea">
@@ -485,7 +492,6 @@
             <textarea
               class="comment-textarea"
               name="comment"
-              id="comment"
               rows="10"
               id="comment"
               placeholder="Введіть текст"
